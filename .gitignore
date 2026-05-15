@@ -4,6 +4,7 @@
 
 # 追跡対象だけを明示的に許可
 !.gitignore
+!README.md
 !CLAUDE.md
 !CLAUDE.writer.md
 

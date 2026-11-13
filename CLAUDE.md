@@ -64,17 +64,19 @@
 
 ---
 
-## 業務記録の保存先（2026-11-13 追加）
+## 業務記録の保存先（2026-11-13 追加・更新）
 
-業務が一区切りつくたびに、次の2か所へ記録する。
+業務が一区切りつくたびに、次の3か所すべてに保存する。
 
-1. **Notion**: プライベート ＞ 山川さんクロード部屋 / Claude Code ＞ `DB_claude_yamakawa`
-   - DB: https://app.notion.com/p/6dc35421c43a42f5b7a9dbf9954a69ae （data source: `collection://53dd13fc-126d-447c-b109-5a74a0e3416f`）
-   - 1業務＝1行。業務名・日付・カテゴリ・状態・概要・成果物・リンク・Drive保存先・次のアクション・元セッションを埋める
-   - 新しいページ・資料も同じ「山川さんクロード部屋」配下に置く
+1. **GitHub**: 作業ファイルは `rita-hudousan/media`（設定類は `yamakawa-maker/claude`）にコミットして push
+   - 業務一覧の控え: `rita-hudousan/media` の `docs/claude-work-log.md` に1行追記
 2. **Google ドライブ**: 「メディア事業部」フォルダ https://drive.google.com/drive/folders/1p5IIWqWXlhWcq-TAP-yb8rTntATKIW0M
    - 成果物ファイルは用途別サブフォルダ（『リタ通』記事／デザイン／CSR、メルマガ、ローン事業部）へ
-   - 一覧の控え「Claude業務記録_山川（DB_claude_yamakawa 控え）」にも行を追記
+   - 一覧の控え「Claude業務記録_山川（DB_claude_yamakawa 控え）」にも追記
+3. **Notion（山川さんのプライベート）**: 山川さんクロード部屋 / Claude Code https://app.notion.com/p/4177d7a1efef811f861feae2446dafd4
+   - DB `DB_claude_yamakawa` https://app.notion.com/p/6dc35421c43a42f5b7a9dbf9954a69ae （data source: `collection://53dd13fc-126d-447c-b109-5a74a0e3416f`）に1業務＝1行で追加
+   - 業務名・日付・カテゴリ・状態・概要・成果物・リンク・Drive保存先・次のアクション・元セッションを埋める
+   - 新しいページ・資料もこのページの配下に置く（共有ページの下には作らない）
 
 ---
 
